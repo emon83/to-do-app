@@ -30,8 +30,8 @@ document.getElementById('input__btn').addEventListener('click', function(){
         <td>${count}</td>
         <td>${myInputValue}</td>
         <td>
-        <button class="btn btn-danger delete__btn">Delete</button>
-        <button class="btn btn-primary done__btn">Done</button>
+        <button class="btn btn-outline-danger btn-sm delete__btn">Delete</button>
+        <button type="button" class="btn done__btn btn-outline-info btn-sm">Done</button>
         </td>
     `
     parent.appendChild(createTr);

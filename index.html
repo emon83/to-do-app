@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="background-color: rgb(178, 192, 178);">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,16 +13,16 @@
       crossorigin="anonymous"
     />
 </head>
-<body>
-    <header>
-        <h1 class="text-center mt-5">To Do List</h1>
+<body style="max-width: 860px; height: 85vh; border-radius: 15px;" class="container-lg rounded-5 shadow-lg">
+    <header class="">
+      <h2 class="text-center mt-5 fw-bold pt-3">To Do List</h2>
     </header>
     <main>
-        <section>
+      <section class="container m-5 bg-body mx-auto">
             <div class="text-center container w-100 m-auto mt-5">
                 <div class="input-group mt-5">
                   <input id="input__value" class="form-control" aria-label="With textarea"></input>
-                  <button id="input__btn" class="btn btn-danger ms-1">Add Items</button>
+                  <button id="input__btn" class="btn btn-outline-info ms-1">Add Items</button>
           
                 </div>
                 <div class="mt-5">
@@ -42,7 +42,7 @@
                         </tr> -->
                     </tbody>
                   </table>
-                  <button id="clear__btn" class="btn btn-danger px-4">Clear All</button>
+                  <button id="clear__btn" class="btn btn-outline-danger px-4 btn-sm">Clear All</button>
                 </div>
               </div>
         </section>
